@@ -32,8 +32,8 @@ print("-"*40)
 regr = linear_model.LinearRegression()
 regr.fit(X, y)
 tt=[]
-for n in range(40):
-    tt=regr.predict(XX)
+
+tt=regr.predict(XX)
     
     
     
